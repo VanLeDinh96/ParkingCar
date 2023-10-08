@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+	<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+  	<PackageReference Include="URF.Core.All" Version="2.2.0" />
+  	<PackageReference Include="URF.Core.EF.Trackable" Version="2.2.0" />
+  </ItemGroup>
+</Project>
